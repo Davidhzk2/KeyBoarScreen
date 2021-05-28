@@ -35,7 +35,19 @@ let btno = document.getElementById("btn-o");
 let btnp = document.getElementById("btn-p");
 let btnAcent = document.getElementById("btn-acent");
 let btnPlus = document.getElementById("btn-plus");
-// let btn = document.getElementById("btn-q");
+
+let btna = document.getElementById("btn-a");
+let btns = document.getElementById("btn-s");
+let btnd = document.getElementById("btn-d");
+let btnf = document.getElementById("btn-f");
+let btng = document.getElementById("btn-g");
+let btnh = document.getElementById("btn-h");
+let btnj = document.getElementById("btn-j");
+let btnk = document.getElementById("btn-k");
+let btnl = document.getElementById("btn-l");
+let btnñ = document.getElementById("btn-ñ");
+let btnko = document.getElementById("btn-ko");
+let btnkc = document.getElementById("btn-kc");
 
 
 
@@ -138,6 +150,42 @@ btnPlus.onclick = () =>{
     writeInBox(btnPlus.innerHTML);
 }
 
+btna.onclick = () =>{
+    writeInBox(btna.innerHTML);
+}
+btns.onclick = () =>{
+    writeInBox(btns.innerHTML);
+}
+btnd.onclick = () =>{
+    writeInBox(btnd.innerHTML);
+}
+btnf.onclick = () =>{
+    writeInBox(btnf.innerHTML);
+}
+btng.onclick = () =>{
+    writeInBox(btng.innerHTML);
+}
+btnh.onclick = () =>{
+    writeInBox(btnh.innerHTML);
+}
+btnj.onclick = () =>{
+    writeInBox(btnj.innerHTML);
+}
+btnk.onclick = () =>{
+    writeInBox(btnk.innerHTML);
+}
+btnl.onclick = () =>{
+    writeInBox(btnl.innerHTML);
+}
+btnñ.onclick = () =>{
+    writeInBox(btnñ.innerHTML);
+}
+btnko.onclick = () =>{
+    writeInBox(btnko.innerHTML);
+}
+btnkc.onclick = () =>{
+    writeInBox(btnkc.innerHTML);
+}
 
 // Special Buttons
 
