@@ -7,6 +7,7 @@ let btnBackspace = document.getElementById("btn-Backspace");
 let btnSpace = document.getElementById("btn-space");
 let btnTab = document.getElementById("btn-tab");
 let btnIntro = document.getElementById("btn-intro");
+let btnclear = document.getElementById("btn-clear");
 
 //  caracters
 let btnPipe = document.getElementById("btnPipe");
@@ -49,26 +50,42 @@ let btnñ = document.getElementById("btn-ñ");
 let btnko = document.getElementById("btn-ko");
 let btnkc = document.getElementById("btn-kc");
 
+let btnlt = document.getElementById("btn-lt");
+let btnz = document.getElementById("btn-z");
+let btnx= document.getElementById("btn-x");
+let btnc = document.getElementById("btn-c");
+let btnv = document.getElementById("btn-v");
+let btnb = document.getElementById("btn-b");
+let btnn = document.getElementById("btn-n");
+let btnm = document.getElementById("btn-m");
+let btncomma = document.getElementById("btn-comma");
+let btnpoint = document.getElementById("btn-point");
+let btnhyphen = document.getElementById("btn-hyphen");
+let btngt = document.getElementById("btn-gt");
+
 
 
 // funciones
 const writeInBox = (btnValue) =>{
     textBox.innerHTML += btnValue;    
 }
+const clearAll =() =>{
+    textBox.innerHTML = "";
+};
 const backspace =() =>{
     textBox.innerHTML = textBox.innerHTML.substring(0,textBox.innerHTML.length  -1);
-}
+};
 
 const space =() =>{
     textBox.innerHTML = textBox.innerHTML + " "; 
-}
+};
 
 const tab = () =>{
     textBox.innerHTML = textBox.innerHTML + "    ";
-}
+};
 const intro = () =>{
     textBox.innerHTML = textBox.innerHTML + "\n";
-}
+};
 
 
 
@@ -187,8 +204,51 @@ btnkc.onclick = () =>{
     writeInBox(btnkc.innerHTML);
 }
 
-// Special Buttons
 
+btnlt.onclick = () =>{
+    writeInBox(btnlt.innerHTML);
+}
+btnz.onclick = () =>{
+    writeInBox(btnz.innerHTML);
+}
+btnx.onclick = () =>{
+    writeInBox(btnx.innerHTML);
+}
+btnc.onclick = () =>{
+    writeInBox(btnc.innerHTML);
+}
+btnv.onclick = () =>{
+    writeInBox(btnv.innerHTML);
+}
+btnb.onclick = () =>{
+    writeInBox(btnb.innerHTML);
+}
+btnn.onclick = () =>{
+    writeInBox(btnn.innerHTML);
+}
+btnm.onclick = () =>{
+    writeInBox(btnm.innerHTML);
+}
+btncomma.onclick = () =>{
+    writeInBox(btncomma.innerHTML);
+}
+btnpoint.onclick = () =>{
+    writeInBox(btnpoint.innerHTML);
+}
+btnhyphen.onclick = () =>{
+    writeInBox(btnhyphen.innerHTML);
+}
+btngt.onclick = () =>{
+    writeInBox(btngt.innerHTML);
+}
+
+
+
+// Special Buttons
+btnclear.onclick = () =>{
+    clearAll();
+    window.location.reload();
+}
 btnBackspace.onclick =() =>{
     backspace();
 };

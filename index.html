@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reto Keyboard</title>
   </head>
-  <body>
+  <br>
     <h1>KeyBoard</h1>
-    <p>Teclado en pantalla</p>
+    <p>Teclado en pantalla, 
+        <button type="button" id="btn-clear">Limpiar</button>
+    </p>
     <div class="">
         <div class="">
             <textarea name="" id="textBox" cols="60" rows="2" maxlength="8" readonly></textarea>
@@ -75,20 +77,20 @@
                 <table>
 
                     <tr>
-            <td><input type="button" id="btn-shift" value="Shift"></td>
-            <td><input type="button" id="btn-lt" value="<"></td>
-            <td><input type="button" id="btn-z" value="Z"></td>
-            <td><input type="button" id="btn-x" value="X"></td>
-            <td><input type="button" id="btn-c" value="C"></td>
-            <td><input type="button" id="btn-v" value="V"></td>
-            <td><input type="button" id="btn-b" value="B"></td>
-            <td><input type="button" id="btn-n" value="N"></td>
-            <td><input type="button" id="btn-m" value="M"></td>
-            <td><input type="button" id="btn-comma" value=","></td>
-            <td><input type="button" id="btn-point" value="."></td>
-            <td><input type="button" id="btn-hyphen" value="-"></td>
-            <td><input type="button" id="btn-gt" value=">"></td>
-            <td><input type="button" id="btn-shift-l" value="Shift"></td>
+            <td><button type="button" id="btn-shift" disabled>Shift</button></td>
+            <td><button type="button" id="btn-lt"><</button></td>
+            <td><button type="button" id="btn-z">Z</button></td>
+            <td><button type="button" id="btn-x">X</button></td>
+            <td><button type="button" id="btn-c">C</button></td>
+            <td><button type="button" id="btn-v">V</button></td>
+            <td><button type="button" id="btn-b">B</button></td>
+            <td><button type="button" id="btn-n">N</button></td>
+            <td><button type="button" id="btn-m">M</button></td>
+            <td><button type="button" id="btn-comma" >,</button></td>
+            <td><button type="button" id="btn-point" >.</button></td>
+            <td><button type="button" id="btn-hyphen">-</button></td>
+            <td><button type="button" id="btn-gt">></button></td>
+            <td><button type="button" id="btn-shift-l" disabled>Shift</button></td>
             <!-- <td><button id="btn-"></button></td>
                 <td><button id="btn-"></button></td> -->
             </tr>
@@ -99,7 +101,7 @@
                 <td><input type="button" value="Control" disabled></td>
                 <td><input type="button" value="Home" disabled></td>
                 <td><input type="button" value="Alt" disabled></td>
-                <td><button type="button" id="btn-space">&nbsp;          Espacio       &nbsp;</button></td>
+                <td><button type="button" id="btn-space">&nbsp; &nbsp; Espacio &nbsp; &nbsp;</button></td>
                 <td><input type="button" value="Alt Gr" disabled></td>
                 <td><input type="button" value="Home" disabled></td>
                 <td><input type="button" value="Info" disabled></td>
